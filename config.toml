@@ -1,0 +1,228 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://www.example.com/"
+languageCode = "en-AU"
+title = "Luscinia"
+
+# Metadata
+[params]
+  author = "Luscinia Enterprises Assn."
+  description = "Luscinia is a Registered B.C. nonprofit under the Societies Act"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "Luscinia Enterprises"
+  description = "Education technology for the developing internet."
+
+# Navigation section
+[params.nav]
+  mission = "Mission"
+  services = "Services"
+  team = "Team"
+  contact = "Contact"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = false
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "create"
+    title = "Create"
+    subtitle = "To create, modify and use technology for the benefit of educators everywhere."
+    description = "<p>We create technologies that we believe will revolutionise the treatment of education on the internet. our ongoing project Aristotle focuses on targeting learning to each individual student.</p><ul class='checked'><li>Create using open-source</li><li>Contribute back to open source</li><li>Provide open-source applications</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "inform"
+    title = "Inform"
+    subtitle = "To inform and ease access to information, statistics and trends in education."
+    description = "<p>We hope to be able to inform people about trends in teaching and learning as well as advocate for the safe and efficient use of technology in the classroom environment.</p><ul class='checked'><li>Monitor and analyse application insights</li><li>Work with schools on accessible implementations</li><li>Work with members of the society to steer us</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "educate"
+    title = "Educate"
+    subtitle = "To educate and aid in the education of students through proven and well tested means."
+    description = "<p>We intend, through various means, to educate students, teachers and parents on what we learn, as well as what trends we notice from the data we collect.</p><ul class='checked'><li>Put analyses of data into public domain</li><li>Create tooling and systems around big data and data science</li><li>Protect the ability for people to create their own conclusions from given data</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  title = "Our Services"
+  description = "Luscinia works with an expanding portfolio of services, we are currently developing and testing aristotle as a hosted product."
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "Aristotle Hosted"
+    description = "Hosted aristotle is for those without the technological capacity to host Aristotle on their own. The hosted option also grants access to our tailored content made perfectly for the B.C. curriculum and months of training for our machine learning model providing the most accurate and customized resources."
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "Aristotle Open-Source"
+    description = "The Aristotle open-source project provides simple ways for schools, school boards and their districts to host their own instances of Aristotle under their direct control. Provided and supported options to run Aristotle include Docker, Kubernetes and manually configuring connections between API servers."
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "Luscinia Open-Source"
+    description = "Luscinia as a member-funded society is dedicated to contributing to the community, we value open source technologies like Docker, Kubernetes, PostgreSQL, MongoDB, Maven, Spring and NodeJS. We closely follow the principles of open source, providing ours free of charge."
+
+#   [[params.services.item]]
+#     icon = "icon-pencil"
+#     title = "Copyrighting"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+#   [[params.services.item]]
+#     icon = "icon-rocket"
+#     title = "Load Fast"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+#   [[params.services.item]]
+#     icon = "icon-support"
+#     title = "Customer Support"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+# Work section
+[params.work]
+  enable = false
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet The Team"
+  description = "Our team is currently spread across Canada but calls Vancouver home. We can be reached by email at <a href=\"mailto:executive@luscinia.ca\">executive@luscinia.ca</a>"
+
+  [[params.team.item]]
+    name = "Milan Bumbulovic"
+    position = "Chief Executive Officer"
+    description = "Currently studying at McGill Univeristy, Milan contributes to the web design and resources work for Aristotle."
+    img = "images/person1.jpg"
+    email = "mbumbulovic@luscinia.ca"
+    facebook = "https://www.facebook.com/people/Milan-Bumbulovic/100009558724897"
+    instagram = "https://www.instagram.com/milanbumbulovic/"
+    github = "https://github.com/milanbumbulovic"
+
+  [[params.team.item]]
+    name = "Varun Patel"
+    position = "Chief Operating Officer"
+    description = "Currently studying at UBC, Varun works on the full stack of applications maintaining Luscinia's internet presence."
+    img = "images/person2.jpg"
+    email = "vpatel@luscinia.ca"
+    facebook = "https://www.facebook.com/varun.patel01"
+    instagram = "https://www.instagram.com/_varunpatel_/"
+    github = "https://github.com/varun-patel"
+
+  [[params.team.item]]
+    name = "Jacob Chun"
+    position = "Chief Financial Officer"
+    description = "Currently studying at Western University, Jacob handles finances and the processing of payments from users."
+    img = "images/person3.jpg"
+    email = "jchun@luscinia.ca"
+    facebook = "https://www.facebook.com/jacob.chun.54"
+    instagram = "https://www.instagram.com/jacob.chun/"
+    
+  [[params.team.item]]
+    name = "Adam Garay"
+    position = "Research and Sales"
+    description = "Currently studying at McGill University, Adam works on creating detailed learning resources and helps with sales."
+    img = "images/person2.jpg"
+    email = "agaray@luscinia.ca"
+    facebook = "https://www.facebook.com/kingdomadamalia"
+    instagram = "https://www.instagram.com/adam.garay/"
+    
+  [[params.team.item]]
+    name = "Jack McColl"
+    position = "Program Development"
+    description = "Currently studying at UBC, Jack assists with managing projects and creating learning resources for users."
+    img = "images/person3.jpg"
+    email = "jmccoll@luscinia.ca"
+    facebook = "https://www.facebook.com/jack.mccoll.12"
+    instagram = "https://www.instagram.com/jack_mc83/"
+    
+  [[params.team.item]]
+    name = "Brandon Krezeski"
+    position = "Public Relations"
+    description = "Currently studying at McGill University, Brandon works on resources and in the off time, manages company sites."
+    img = "images/person1.jpg"
+    email = "bkrezeski@luscinia.ca"
+    facebook = "https://www.facebook.com/brandon.krezeski11"
+    instagram = "https://www.instagram.com/brandon_krz/"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "Contact us if you have any questions or would like to sponsor our work."
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We do not share, send or distribute your personal information to third parties."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; <script>document.write(new Date().getFullYear())</script> Luscinia Enterprises Assn. All Rights Reserved.</p>"
+  github = "https://github.com/luscinia-enterprises/"
+#   twitter = "#"
+#   facebook = "#"
+#   vine = "#"
+#   linkedin = "#"
+#   instagram = "#"
+  
