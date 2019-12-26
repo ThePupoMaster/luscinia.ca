@@ -81,7 +81,7 @@ title = "Luscinia"
   [[params.services.item]]
     icon = "icon-present"
     title = "Luscinia Open-Source"
-    description = "Luscinia as a member-funded society is dedicated to contributing to the community, we value open source technologies like Docker, Kubernetes, PostgreSQL, MongoDB, Maven, Spring and NodeJS. We closely follow the principles of open source, providing ours free of charge."
+    description = "Luscinia as a member-funded society is dedicated to contributing to the community, we value open source technologies like Docker, Kubernetes, PostgreSQL, MongoDB, Maven, Spring and NodeJS. We closely follow the principles of open source, providing our source free of charge."
 
 #   [[params.services.item]]
 #     icon = "icon-pencil"
@@ -211,7 +211,7 @@ title = "Luscinia"
   message = "Contact us if you have any questions or would like to sponsor our work."
   name_placeholder = "Your name"
   email_placeholder = "Your email"
-  email_disclaimer = "We do not share, send or distribute your personal information to third parties."
+  email_disclaimer = "We do not explicitly share your personal information with third parties."
   message_placeholder = "Please enter a message."
   button_text = "Submit"
 
