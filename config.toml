@@ -206,7 +206,7 @@ title = "Luscinia"
 
 # Contact section
 [params.contact]
-  enable = true
+  enable = false
   title = "Get In Touch"
   message = "Contact us if you have any questions or would like to sponsor our work."
   name_placeholder = "Your name"
